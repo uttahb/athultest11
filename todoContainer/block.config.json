@@ -1,0 +1,22 @@
+{
+  "name": "athultest11_todoContainer",
+  "type": "ui-container",
+  "source": {
+    "https": "",
+    "ssh": "",
+    "branch": "block_athultest11_todoContainer"
+  },
+  "language": "js",
+  "start": "npx webpack-dev-server",
+  "build": "npx webpack",
+  "postPull": "npm i",
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ],
+  "blockId": "yBGOB66-CHInKYgdSGzZ3",
+  "isPublic": true,
+  "repoType": "mono",
+  "parentBlockIDs": [
+    "qQbCLR9MX17mZLqVDmecg"
+  ]
+}

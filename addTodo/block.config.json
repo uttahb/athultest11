@@ -1,0 +1,22 @@
+{
+  "type": "function",
+  "source": {
+    "https": "",
+    "ssh": "",
+    "branch": "block_athultest11_addTodo"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "npm run build",
+  "postPull": "npm i",
+  "name": "athultest11_addTodo",
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ],
+  "blockId": "dUvSnANU3Ii-xsVsEcMpa",
+  "isPublic": true,
+  "repoType": "mono",
+  "parentBlockIDs": [
+    "qQbCLR9MX17mZLqVDmecg"
+  ]
+}
